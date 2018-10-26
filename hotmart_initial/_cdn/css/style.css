@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.action {
+    width: 100%;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn-hotmart {
+    color: #FFF;
+    background-color: #f04e23;
+    border: none;
+}
+
+.btn-hotmart:hover {
+    background-color: #d0380f;
+    cursor: pointer;
+}
+
+.item {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #f04e23;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.item h1 {
+    font-weight: 400;
+    color: #fff;
+    flex-basis: 100%;
+    padding: 10px;
+    background-color: #f04e23;
+    text-align: center;
+}
+
+.item .item_content {
+    flex-basis: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item .group {
+    flex-basis: calc(33.33% - 10px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item .group h2 {
+    flex-basis: 100%;
+    color: #666;
+    font-weight: 400;
+}
+
+.item .group input, .item .group select {
+    margin-bottom: 20px;
+    flex-basis: 100%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    padding: 4px;
+    margin-top: 4px;
+    font-size: 0.9em;
+}
